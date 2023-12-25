@@ -1,3 +1,4 @@
+import math
 def task1():
     # Task 1: Use recursive
 
@@ -15,8 +16,6 @@ def task1():
 
 def task2():
     # Task 2 : Fractorial values by recursive function
-    import math
-
     def fractional(n):
         if n == 1:
             L = [0] * n
@@ -106,7 +105,7 @@ def task5():
     queue = []
     count = 0
 
-    while len(queue) > 0 and count > 0:  # Just so we do it at least once and until it's done
+    while (len(queue) > 0 and count > 0):  # Just so we do it at least once and until it's done
         serve = input('Is any order served ? ')
 
         if serve.lower == ' no ':
@@ -115,5 +114,4 @@ def task5():
         else:
             queue.pop(0)  # then serve
 
-        print(' The order list is :'
-        queue)
+        print(' The order list is :' + queue)
