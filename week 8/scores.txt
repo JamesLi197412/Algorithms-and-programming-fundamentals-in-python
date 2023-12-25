@@ -1,0 +1,6 @@
+Alan Mathison Turing	8 10 10 9
+Ada Lovelace	10 9 7 9
+Douglas Carl Engelbart	6 8 6 7
+John von Neumann	6 5 10 8
+Charles Babbage	8 8 7 10
+Gordon Moore	1 2 4 8

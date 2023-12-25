@@ -1,0 +1,187 @@
+3000	Melbourne
+3003	West Melbourne
+3004	St Kilda Road Melbourne
+3005	World Trade Centre
+3006	Southbank
+3008	Docklands
+3010	University Of Melbourne
+3011	Footscray,Seddon,Seddon West
+3012	Brooklyn,Kingsville,Maidstone,Tottenham,West Footscray
+3013	Yarraville,Yarraville West
+3015	Newport,South Kingsville,Spotswood
+3016	Williamstown
+3018	Altona,Seaholme
+3019	Braybrook,Robinson
+3020	Albion,Sunshine
+3021	Albanvale,Kealba,Kings Park,St Albans
+3022	Ardeer,Deer Park East
+3023	Burnside,Cairnlea,Caroline Springs,Deer Park
+3024	Mount Cottrell,Wyndham Vale
+3025	Altona North
+3026	Laverton North
+3027	Williams Landing
+3028	Altona Meadows,Laverton,Seabrook
+3029	Hoppers Crossing,Tarneit,Truganina
+3030	Derrimut,Point Cook,Werribee
+3031	Flemington,Kensington
+3032	Ascot Vale,Highpoint City,Maribyrnong,Travancore
+3033	East Keilor
+3034	Avondale Heights
+3036	Keilor,Keilor North
+3037	Delahey,Hillside,Sydenham
+3038	Keilor Downs,Taylors Lakes
+3039	Moonee Ponds
+3040	Aberfeldie,Essendon,Essendon West
+3041	Essendon North,Strathmore,Strathmore Heights
+3042	Airport West,Keilor Park,Niddrie
+3043	Gladstone Park,Gowanbrae,Tullamarine
+3044	Pascoe Vale,Pascoe Vale South
+3045	Melbourne Airport
+3046	Glenroy,Hadfield,Oak Park
+3047	Broadmeadows,Dallas,Jacana
+3048	Coolaroo,Meadow Heights
+3049	Attwood,Westmeadows
+3050	Royal Melbourne Hospital
+3051	Hotham Hill,North Melbourne
+3052	Melbourne University,Parkville
+3053	Carlton,Carlton South
+3054	Carlton North,Princes Hill
+3055	Brunswick West
+3056	Brunswick
+3057	Brunswick East
+3058	Coburg,Coburg North,Merlynston,Moreland
+3059	Greenvale
+3060	Fawkner
+3061	Campbellfield
+3062	Somerton
+3063	Oaklands Junction,Yuroke
+3064	Craigieburn,Donnybrook,Kalkallo,Mickleham,Roxburgh Park
+3065	Fitzroy
+3066	Collingwood
+3067	Abbotsford
+3068	Clifton Hill,Fitzroy North
+3070	Northcote
+3071	Thornbury
+3072	Northland Centre,Preston,Preston South,Regent West
+3073	Reservoir,Keon Park
+3074	Thomastown
+3075	Lalor
+3076	Epping,Epping Dc
+3078	Alphington,Fairfield
+3079	Ivanhoe,Ivanhoe East
+3081	Heidelberg Heights,Heidelberg Rgh,Heidelberg West
+3082	Mill Park
+3083	Bundoora,Kingsbury
+3084	Banyule,Eaglemont,Heidelberg,Rosanna,Viewbank
+3085	Macleod,Yallambie
+3087	Watsonia
+3088	Briar Hill,Greensborough,Saint Helena
+3089	Diamond Creek
+3090	Plenty
+3091	Yarrambat
+3093	Lower Plenty
+3094	Montmorency
+3095	Eltham,Eltham North,Research
+3096	Wattle Glen
+3097	Bend Of Islands,Kangaroo Ground,Watsons Creek
+3099	Arthurs Creek,Cottles Bridge,Hurstbridge,Nutfield,Strathewen
+3101	Kew
+3102	Kew East
+3103	Balwyn
+3104	Balwyn North
+3105	Bulleen
+3106	Templestowe
+3107	Templestowe Lower
+3108	Doncaster
+3109	Doncaster East,Doncaster Heights,Tunstall Square Po
+3110	Nunawading Bc
+3111	Donvale
+3113	North Warrandyte,Warrandyte
+3114	Park Orchards
+3115	Wonga Park
+3116	Chirnside Park
+3121	Burnley,Cremorne,Richmond
+3122	Hawthorn
+3123	Hawthorn East
+3124	Camberwell,Camberwell North,Camberwell South,Camberwell West,Middle Camberwell
+3125	Bennettswood,Burwood
+3126	Camberwell East,Canterbury
+3127	Mont Albert,Surrey Hills
+3128	Box Hill,Box Hill South,Houston,Wattle Park
+3129	Box Hill North,Kerrimuir,Mont Albert North
+3130	Blackburn,Blackburn North,Blackburn South,Laburnum
+3131	Brentford Square,Forest Hill,Nunawading
+3132	Mitcham,Rangeview
+3133	Vermont,Vermont South
+3134	Ringwood,Ringwood North,Warrandyte South,Warranwood
+3135	Bedford Road,Heathmont,Ringwood East
+3136	Croydon,Croydon Hills,Croydon North,Croydon South
+3137	Kilsyth,Kilsyth South
+3138	Mooroolbark
+3139	Hoddles Creek,Launching Place,Seville,Wandin North,Woori Yallock,Yellingbo
+3140	Lilydale
+3141	South Yarra
+3142	Hawksburn,Toorak
+3143	Armadale,Armadale North
+3144	Kooyong,Malvern
+3145	Caulfield East,Central Park,Darling,Malvern East
+3146	Glen Iris
+3147	Ashburton,Ashwood
+3148	Chadstone,Holmesglen
+3149	Mount Waverley,Syndal
+3150	Glen Waverley,Wheelers Hill
+3151	Burwood East,Burwood Heights
+3152	Knox City Centre,Studfield,Wantirna,Wantirna South
+3153	Bayswater,Bayswater North
+3154	The Basin
+3155	Boronia
+3156	Ferntree Gully,Lysterfield,Lysterfield South,Mountain Gate,Upper Ferntree Gully
+3158	Upwey
+3159	Menzies Creek,Selby
+3160	Belgrave,Tecoma
+3161	Caulfield Junction,Caulfield North
+3162	Caulfield,Caulfield South,Hopetoun Gardens
+3163	Carnegie,Glen Huntly,Murrumbeena
+3164	Dandenong South
+3165	Bentleigh East,Coatesville
+3166	Hughesdale,Huntingdale,Oakleigh,Oakleigh East
+3167	Oakleigh South
+3168	Clayton,Notting Hill
+3169	Clarinda,Clayton South
+3170	Mulgrave
+3171	Sandown Village,Springvale
+3172	Dingley Village,Springvale South
+3173	Keysborough
+3174	Noble Park,Noble Park North
+3175	Bangholme,Dandenong,Dandenong North,Dandenong South
+3176	Scoresby Bc
+3177	Doveton,Eumemmerring
+3178	Rowville
+3179	Scoresby
+3180	Knoxfield
+3181	Prahran,Windsor
+3182	St Kilda,St Kilda South,St Kilda West
+3183	Balaclava,St Kilda East
+3184	Brighton Road,Elwood
+3185	Elsternwick,Gardenvale,Ripponlea
+3186	Brighton,Dendy
+3187	Brighton East,North Road
+3188	Hampton,Hampton East,Hampton North
+3189	Moorabbin,Moorabbin East,Wishart
+3190	Highett
+3191	Sandringham
+3192	Cheltenham,Cheltenham East,Southland Centre
+3193	Beaumaris,Black Rock,Cromer
+3194	Mentone,Moorabbin Airport
+3195	Aspendale,Aspendale Gardens,Braeside,Mordialloc,Parkdale,Waterways
+3196	Bonbeach,Chelsea,Chelsea Heights,Edithvale
+3197	Carrum,Patterson Lakes
+3198	Belvedere Park,Seaford
+3199	Frankston,Frankston South,Karingal
+3200	Frankston North,Pines Forest
+3201	Carrum Downs
+3202	Heatherton
+3204	Bentleigh,Mckinnon,Ormond
+3205	South Melbourne,South Melbourne Dc
+3206	Albert Park,Middle Park
+3207	Garden City,Port Melbourne

@@ -219,21 +219,21 @@ def task4():
     List = selectionSortPrice(List)
 
     while Choice != 'Quit':
-        if (Choice == 'Print')
-        # Improving Readability
-        for element in List:
-            print(str(element[0]), 'kms, $', str(element[1]))
+        if (Choice == 'Print'):
+            # Improving Readability
+            for element in List:
+                print(str(element[0]), 'kms, $', str(element[1]))
 
-        elif Choice == 'Sort1'
-        List = selectionSortDistance(List)
-        # Improving Readability
-        for element in List:
-            print(str(element[0]), 'kms, $', str(element[1]))
+        elif (Choice == 'Sort1'):
+            List = selectionSortDistance(List)
+            # Improving Readability
+            for element in List:
+                print(str(element[0]), 'kms, $', str(element[1]))
 
-        elif Choice == 'Sort2'
-        List = selectionSortPrice(List)
-        # Improving Readability
-        for element in List:
-            print(str(element[0]), 'kms, $', str(element[1]))
+        elif (Choice == 'Sort2'):
+            List = selectionSortPrice(List)
+            # Improving Readability
+            for element in List:
+                print(str(element[0]), 'kms, $', str(element[1]))
 
 
