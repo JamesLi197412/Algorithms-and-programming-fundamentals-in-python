@@ -1,0 +1,84 @@
+WaterInMilkGlass + MilkInMilkGlass = x #each glass has x volume
+WaterInWaterGlass + MilkInWaterGlass = x
+WaterInMilkGlass + WaterInWaterGlass = x #x total water and x total milk across both
+MilkInMilkGlass + MilkInWaterGlass = x
+
+initially
+WaterInWaterGlass = x
+WaterInMilkGlass = 0
+MilkInWaterGlass = 0
+MilkInMilkGlass = x
+
+trivial case:
+if x = 0 then waterInWaterGlass = 0 = WaterInMilkGlass = MilkInWaterGlass = MilkInMilkGlass
+trivially correct
+
+Let's assume our statement holds for the moment and we are at the current situation
+WaterInWaterGlass = x-h
+WaterInMilkGlass = h
+MilkInWaterGlass = h
+MilkInMilkGlass = x-h
+
+let's assume a spoon of volume r which contains 
+a proportion of milk (a) and water (b)
+such that 0<=a<=1, 0<=b<=1 and a+b = 1
+After one spoon from MilkGlass to WaterGlass of size r
+WaterInWaterGlass = x-h + b*r
+MilkInWaterGlass = h + a*r
+WaterInMilkGlass = h - b*r
+MilkInMilkGlass = x-h - a*r
+
+After a spoon back from WaterGlass to MilkGlass using a' and b' (proportions not necessarily as before)
+WaterInWaterGlass = x-h + b*r - b'*r
+MilkInWaterGlass = h + a*r - a'*r
+WaterInMilkGlass = h - b*r + b'*r
+MilkInMilkGlass = x-h - a*r + a'*r
+
+simplify:
+WaterInWaterGlass = x-h + r(b - b')
+MilkInWaterGlass = h + r(a - a')
+WaterInMilkGlass = h - r(b-b')
+MilkInMilkGlass = x-h - r(a - a')
+ 
+ Now as for our final statement that milk in water === water in milk; Is this true???
+ WaterInMilkGlass ?=? MilkInWaterGlass
+ h - r(b-b') ?=? h + r(a - a')
+ Let's focus on the left hand side (LHS)
+ LHS = h - r(b-b')
+ given that a+b = 1 and a'+b' = 1, we replace all bs and b's with equivalent a and a's
+ = h - r((1-a) - (1-a'))
+ = h - r(1 - a - 1 + a')
+the ones cancel out
+ = h - r(-a + a')
+take the minus sign outside the brackets
+ = h + r(a - a')
+the RHS (right hand side) looks like this:
+h + r(a - a')
+THESE ARE THE SAME!
+so WaterInMilkGlass = MilkInWaterGlass at some arbitrary step where we DON'T even KNOW what the proportions
+in the spoon were or the current proportions in the glasses!
+
+
+
+
+ASIDE: have we lost anything?
+total water remains x as
+WaterInWaterGlass + WaterInMilkGlass
+= x-h + r(b - b') + h - r(b-b')
+= x - h + h
+= x
+
+same thing for total milk
+
+volume in Milk glass remains x as:
+WaterInWaterGlass + MilkInWaterGlass
+ = x-h + r(b - b') + h + r(a - a')
+ = x - h + h + r(b-b') + r(a-a')
+ = x + r(b-b') + r(a-a')
+ BUT we know that a+b = 1 and a' + b'  =1 HENCE
+ = x + r((1-a) - (1-a')) + r(a-a')
+ = x + r[ 1-a + a'-1 + a-a' ]
+ = x + r[ -a + a - a' + a' ]
+ = x + r[ 0 ] = x
+ 
+ same thing for volume in Water Glass
