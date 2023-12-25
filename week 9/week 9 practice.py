@@ -20,7 +20,6 @@ def task2():
         if n == 1:
             L = [0] * n
             L[0] = 1
-
         else:
             L = fractional(n - 1)
             L.append(n * L[n - 2])
@@ -33,7 +32,6 @@ def task2():
 
 def task3():
     # Task 3: printStars
-
     def fractional(n):
         if n == 1:
             L = [0] * n

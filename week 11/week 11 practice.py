@@ -1,6 +1,7 @@
+import random
+import timeit
 def task1():
     ##  Some information on heaps:
-
     heapList = [8, 4, 7, 2, 3, 1]
     integer = 0
 
@@ -28,15 +29,11 @@ def task1():
 
 def task2():
     ## Task 2 Investigate time taken by two different algorithms for computing x**n
-    import random
-    import timeit
-
     def power1(x, n):
         #   Computes x to the power of n
         value = 1
         for k in range(n):
             value *= x
-
         return value
 
     def power2(x, n):
@@ -48,13 +45,12 @@ def task2():
             value = value * value
         else:
             value = value * value * x
-
         return value
 
     count1 = 0
     count2 = 0
     for i in range(100):
-        #   Genertae random integers for x and n
+        #   Generate random integers for x and n
         x = random.randrange(1, 100)
         n = random.randrange(1, 100)
 
@@ -78,8 +74,7 @@ def task2():
 
 
 def task3():
-    ##  Task 3
-
+    #  Task 3
     def quicksort(myList, start, end):
         if start < end:
             #   partition the list
@@ -135,7 +130,4 @@ def task3():
         sTime = timeit.default_timer() - sStart
 
         #   Finish timint
-
-    import random
-    import timeit
-    sBest = float('inf')
+        sBest = float('inf')

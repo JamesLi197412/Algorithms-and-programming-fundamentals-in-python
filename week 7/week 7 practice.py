@@ -1,5 +1,5 @@
 
-def task1():
+def task1(N,aList):
     ## N queens
     N = int(input('Please enter N:'))
     aList = []
@@ -18,7 +18,7 @@ def task1():
     print(aList)
 
 
-def task2():
+def task2(N,aList):
     ## N queens
     N = int(input('Please enter N:'))
     aList = []
@@ -43,7 +43,7 @@ def task2():
     L = printTable(aList)
 
 
-def task4():
+def task4(N,aList):
     ## N queens
     N = int(input('Please enter N:'))
     aList = []
