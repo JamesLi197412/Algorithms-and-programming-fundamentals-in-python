@@ -1,4 +1,4 @@
-## FIT1045  Algorithms and programming fundamentals in python
+## Algorithms and programming fundamentals in python
 
 ## Overview
 This is one of the unit I took at University. Programming fundamentals and the Python language were introduced. A foundational understanding of program design is provided and algorithms are implemented to solve problems.
@@ -9,16 +9,17 @@ Topics cover basic input and output, program control (if condition, while), basi
 ##Topics list:
 * Basic Intro of Python
 * Variables 
-* Loops and Repetition
+* Loops, Repetition, conditions
   * for, while
+  
 * Data Structures
   * Lists,Tables, Dicts
+  *   Stack, Queue
   * Trees
     * Spanning Tree
     * Heap
     * Binary Search Tree
     * Minimum Spanning Tree
-  * Stack, Queue
   * Graphs
     * Weighted
     * Directed
